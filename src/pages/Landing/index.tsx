@@ -7,10 +7,10 @@ import giveClassesIcon from '../../assets/images/icons/give-classes.svg';
 import purpleHeartIcon from '../../assets/images/icons/purple-heart.svg';
 import './styles.css';
 
-// import { Container } from './styles';
+import { Container } from './styles';
 
 const Landing: React.FC = () => (
-  <div id="page-landing">
+  <Container>
     <div id="page-landing-content" className="container">
       <div className="logo-container">
         <img src={logoImg} alt="Logo" />
@@ -36,7 +36,7 @@ const Landing: React.FC = () => (
         <img src={purpleHeartIcon} alt="Coração roxo" />
       </span>
     </div>
-  </div>
+  </Container>
 );
 
 export default Landing;
